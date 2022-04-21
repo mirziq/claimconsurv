@@ -1,0 +1,68 @@
+#padding {
+  padding: 30px;
+}
+
+#toppadding {
+  padding-top: 30px;
+}
+
+
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+
+table#reporttable {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #f1f1c1;
+  font-size: 100px;
+}
+
+  .zoomer {
+
+    transition: transform .2s;
+    position: absolute;
+
+  }
+
+  .zoomer:hover {
+    transform: scale(150);
+    z-index: 2;
+    object-fit: scale-down;
+  }
+
+  .acceptbtn:hover {
+    color: green;
+    background-color: green;
+  }
